@@ -1,0 +1,236 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.my_portfolio_name{
+    text-align: center;
+
+}
+.button_a{
+    color: white;
+    text-decoration: none;
+    &:hover{
+        color: white;
+        font-weight: bold;
+    }
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.my_container_show{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: calc(100vh - 100px);
+}
+.my_card{
+    text-align: center;
+}
+.main_welcome{
+ display: flex;
+
+ flex-wrap: wrap;
+}
+.my_card_welcome{
+    margin: 3rem;
+}
+.my_container_admin{
+    display: flex;
+    height: calc(100vh - 100px);
+    background-color: #403F3C;
+    color: white;
+}
+.left_lateral{
+    flex-basis: 10%;
+    background-color: black;
+    ul{
+        list-style: none;
+        li{
+            list-style: none;
+            margin-top: 2rem;
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                font-size: 1.2rem;
+
+            }
+        }
+    }
+
+
+}
+.right{
+    flex-basis: 90%;
+
+}
+.my_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.my_row{
+    display: flex;
+ //   border: 1px solid black;
+    justify-content: space-between;
+
+}
+.right_row{
+    display: flex;
+    flex-basis: 33.3%;
+    justify-content: flex-end;
+
+
+
+}
+.left_row{
+flex-basis: 33.3%;
+display: flex;
+align-items: center;
+justify-self: flex-end;
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+}
+.center_row{
+    flex-basis: 33.3%;
+    display: flex;
+    justify-content: center;
+}
+.left_row_header{
+    display: flex;
+    flex-basis: 33.3%;
+    justify-content: flex-end;
+}
+.my_container_index{
+    margin: 0 auto;
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+
+}
+.show_img{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.col_head{
+    height: 50px;
+    font-size: 25px;
+}
+.col_body{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.my_col{
+    box-shadow: -3px 0px 14px 5px rgba(0, 0, 0, 0.5);
+}
+.edit{
+    margin-right: 1rem;
+}
+.head_show{
+    display: flex;
+    p{
+        font-size: 20px;
+    }
+}
+//show
+.head_show_left{
+flex-basis: 33.3%;
+justify-self: flex-start;
+margin-left: 5rem;
+}
+.head_show_center {
+flex-basis: 33.3%;
+justify-self: center;
+text-align: center;
+}
+.head_show_right {
+flex-basis: 33.3%;
+display: flex;
+justify-content: flex-end;
+margin-right: 5rem;
+}
+.body_show{
+        p {
+                font-size: 18px;
+            }
+}
+.my_container_admin{
+    height: calc(100vh - 100px);
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.my_card_welcome{
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    margin: 10rem 0;
+    background-color: #73726F;
+box-shadow: -8px 0px 15px -1px #000000;
+}
+.left_card_welcome{
+    flex-basis: 50%;
+    img{
+        width: 300px;
+    }
+}
+.right_card_welcome{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .title_card_welcome{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+
+    }
+    p{
+        font-size: 18px;
+    }
+}
+.my_container_welcome{
+    background-color: #403F3C;
+}
+.up_right{
+    margin-top: 1rem;
+}
+.my_btn_welcome{
+    background-color: #BFBDB8;
+    width: 200px;
+    margin-bottom: 3rem;
+    transition: 0.5s all;
+    &:hover{
+        background-color: #D9D8D7 !important;
+    }
+}
+.background_card{
+    background-color: #73726F;
+}
+.my_btn_dashboard{
+        background-color: #BFBDB8;
+            width: 200px;
+            margin-bottom: 3rem;
+            transition: 0.5s all;
+            color: #000000;
+
+            &:hover {
+                background-color: #D9D8D7 !important;
+                color: #000000 !important;
+            }
+}
